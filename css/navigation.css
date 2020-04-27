@@ -28,6 +28,12 @@
    position: relative;
 }
 
+@media(max-width:767px) {
+   .main-navigation__logo-link-1 {
+      display: none;
+   }
+}
+
 .main-navigation__logo-link-1::after {
    content: "";
    width: 7px;

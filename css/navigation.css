@@ -8,6 +8,15 @@
    z-index: 1;
 }
 
+@media(max-width:767px) {
+   .main-navigation {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: rgb(83, 81, 81);
+      position: static;
+   }
+}
+
 .main-navigation__inner {
    display: flex;
    align-items: center;
@@ -21,33 +30,14 @@
    color: white;
 }
 
-.main-navigation__logo-link-1 {
-   font-size: 30px;
-   font-weight: bold;
+.main-navigation__logo-link-1 .main-navigation__menu {
+   display: flex;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   transition: 0.5s;
+   transition-property: opacity, transform;
    font-family: 'Source Sans Pro', sans-serif;
-   position: relative;
-}
-
-@media(max-width:767px) {
-   .main-navigation__logo-link-1 {
-      display: none;
-   }
-}
-
-.main-navigation__logo-link-1::after {
-   content: "";
-   width: 7px;
-   height: 7px;
-   background: red;
-   position: absolute;
-   border-radius: 50%;
-   bottom: 8px;
-}
-
-@media(max-width:991px) {
-   .main-navigation__logo-link {
-      font-size: 28px;
-   }
 }
 
 .main-navigation__menu {
@@ -67,13 +57,13 @@
       left: 0;
       bottom: 0;
       right: 0;
-      background: black;
+      background: white;
       flex-direction: column;
-      justify-content: center;
-      text-align: center;
+      justify-content: left;
+      text-align: left;
       opacity: 0;
       pointer-events: none;
-      transform: translateY(-50%);
+      transform: translatex(-50%);
    }
 }
 
@@ -99,7 +89,11 @@
 
 @media (max-width: 991px) {
    .main-navigation__menu-item {
-      margin-left: 0;
+      width: 100vw;
+      padding: 30px;
+      border-bottom: 1px solid gray;
+      font-size: 20px;
+      margin: 0;
    }
 }
 
@@ -107,20 +101,14 @@
    border-bottom: 2px solid white;
 }
 
-@media (max-width: 991px) {
-   .main-navigation__menu-item:hover {
-      border-bottom: unset;
-   }
-}
-
 .main-navigation__link {
    text-decoration: none;
    color: white;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 767px) {
    .main-navigation__link {
-      font-size: 22px;
+      color: rgb(114, 110, 110)
    }
 }
 
@@ -140,6 +128,5 @@
 @media (max-width: 991px) {
    .main-navigation__mobile-button-image {
       width: 25px;
-      display: block;
    }
 }

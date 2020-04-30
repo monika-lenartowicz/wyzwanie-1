@@ -1,5 +1,5 @@
 .main-navigation {
-   position: fixed;
+   position: absolute;
    top: 0;
    left: 0;
    right: 0;
@@ -72,6 +72,27 @@
       opacity: 1;
       pointer-events: unset;
       transform: unset;
+   }
+}
+
+.main-navigation__menu-back {
+   padding-top: 30px 20px;
+   text-decoration: none;
+   display: none;
+}
+
+@media(max-width: 991px) {
+   .main-navigation__menu-back {
+      display: unset;
+      border-bottom: 1px solid gray;
+      color: gray;
+      font-size: 20px;
+      padding: 20px 20px;
+   }
+   .main-navigation__menu-back--image {
+      border: none;
+      padding-bottom: 0;
+      padding-left: 0;
    }
 }
 

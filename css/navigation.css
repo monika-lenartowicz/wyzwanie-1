@@ -67,11 +67,12 @@
    }
 }
 
-@media(max-width: 991px) {
+@media(max-width: 991px)  {
    .main-navigation__menu--open {
       opacity: 1;
       pointer-events: unset;
       transform: unset;
+      z-index: 2;
    }
 }
 
@@ -119,7 +120,14 @@
 }
 
 .main-navigation__menu-item:hover {
-   border-bottom: 2px solid white;
+   border-bottom: 1px solid white;
+}
+
+@media(max-width:991px) {
+   .main-navigation__menu-item:hover {
+      background: rgba(182, 170, 170, 0.171);
+      border:1px solid rgba(0, 0, 0, 0.178);
+   }
 }
 
 .main-navigation__link {

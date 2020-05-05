@@ -15,12 +15,7 @@
    right: 0;
    top: 0;
    bottom: 0;
-}
-
-@media(max-width:767px) {
-   .main-banner {
-      z-index: -1;
-   }
+   z-index: 0;
 }
 
 .main-banner::after {

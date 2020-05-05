@@ -30,7 +30,7 @@
    color: white;
 }
 
-.main-navigation__logo-link-1 .main-navigation__menu {
+.main-navigation__logo-link-1 {
    display: flex;
    margin: 0;
    padding: 0;
@@ -67,7 +67,7 @@
    }
 }
 
-@media(max-width: 991px)  {
+@media(max-width: 991px) {
    .main-navigation__menu--open {
       opacity: 1;
       pointer-events: unset;
@@ -116,6 +116,9 @@
       border-bottom: 1px solid gray;
       font-size: 20px;
       margin: 0;
+      display: unset;
+
+
    }
 }
 
@@ -126,7 +129,7 @@
 @media(max-width:991px) {
    .main-navigation__menu-item:hover {
       background: rgba(182, 170, 170, 0.171);
-      border:1px solid rgba(0, 0, 0, 0.178);
+      border: 1px solid rgba(0, 0, 0, 0.178);
    }
 }
 
@@ -135,6 +138,12 @@
    color: white;
 }
 
+
+@media (max-width: 991px) {
+.main-navigation__link {
+   color: rgb(114, 110, 110);
+}
+}
 @media(max-width: 767px) {
    .main-navigation__link {
       color: rgb(114, 110, 110)

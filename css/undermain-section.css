@@ -9,8 +9,13 @@
 @media(max-width:991px) {
    .undermain-section {
       flex-direction: column;
-      margin-top: -10px;
       width: 90vw;
+   }
+}
+
+@media(max-width:767px) {
+   .undermain-section {
+      margin-top: -10px;
    }
 }
 
@@ -27,7 +32,7 @@
 }
 
 .undermain-section__box--red {
-   background:rgb(214, 28, 28);
+   background: rgb(214, 28, 28);
 }
 
 .undermain-section__box--black {

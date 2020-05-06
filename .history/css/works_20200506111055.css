@@ -1,0 +1,12 @@
+.work-gallery {
+display: flex;
+width: 90wv;
+margin: 20px auto;
+flex-direction: row;
+
+
+
+}
+
+.work-gallery__link {
+

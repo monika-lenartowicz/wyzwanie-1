@@ -1,0 +1,23 @@
+.work-gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 20px;
+
+
+
+
+
+}
+
+.work-gallery__image {
+width: 320px;
+height: 320px;
+padding-right: 10px;
+padding-bottom: 10px;
+
+}
+
+@media(max-width:767px) {
+
+}

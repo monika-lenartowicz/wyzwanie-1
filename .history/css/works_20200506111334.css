@@ -1,0 +1,10 @@
+.work-gallery {
+display: grid;
+grid-template-columns: 20% ;
+
+
+
+}
+
+.work-gallery__link {
+}

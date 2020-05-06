@@ -4,6 +4,12 @@
    justify-content: center;
    margin: 50px 20px;
 }
+@media(max-width:680px) {
+   .work-gallery {
+      margin-left: 16px;
+      mar
+   }
+}
 
 .work-gallery__image {
    width: 320px;
@@ -21,12 +27,5 @@
 @media(max-width: 767) {
    .work-gallery__image {
       padding-right: 0;
-   }
-}
-
-@media(max-width:570px) {
-   .work-gallery__image {
-      padding-left: 10px;
-      padding-right: 10px;
    }
 }

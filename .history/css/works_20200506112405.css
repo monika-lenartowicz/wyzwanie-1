@@ -1,0 +1,15 @@
+.work-gallery {
+display: grid;
+grid-template-columns: repeat(4, 300px);
+grid-template-rows: 300px 300px;
+gap: 10px;
+
+
+
+
+}
+
+.work-gallery__link {
+width: 20%;
+
+}

@@ -1,0 +1,15 @@
+.work-gallery {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 10px;
+
+
+
+}
+
+.work-gallery__link {
+width: 200px;
+height: 200px;
+
+}

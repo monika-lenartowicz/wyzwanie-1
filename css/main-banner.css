@@ -1,5 +1,5 @@
 .main-banner {
-   background: url("/main-banner/background.jpg");
+   background: url("main-banner/background.jpg");
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -79,6 +79,7 @@
       padding-left: 16px;
       padding-left: 16px;
    }
+} 
    .main-banner__buttons {
       z-index: 1;
       font-size: 14px;

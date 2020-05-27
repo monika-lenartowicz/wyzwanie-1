@@ -15,6 +15,7 @@
    <link href="css/undermain-section.css" rel="stylesheet">
    <link href="css/services.css" rel="stylesheet">
    <link href="css/works.css" rel="stylesheet">
+   <link href="css/formular.css" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
@@ -206,31 +207,29 @@
       <section class="formular">
          <article class="formular-article">
             <h2 class="formular-article__header">Want to have a professional project? Let's talk about this.</h2>
-            <p class="formular-article">
+            <p class="formular-article__paragraph">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac ipsum eget enim eleifend malesuada.
                Praesent vitae lacinia quam. Donec sed vulputate nibh, vel aliquet lacus. Pellentesque congue quam non
-               arcu.
-               <br>
+               arcu.<br><br>
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae massa ullamcorper, fringilla turpis
                eget, blandit arcu. Pellentesque ac fermentum enim. Cras magna nunc, dapibus quis blandit ac, iaculis
                cursus nunc.
             </p>
          </article>
-         <article class="formular">
-            <form class="formular-contact">
-               <input class="formular-contact__name" name="name" placeholder="your name" required>
-               <input class="formular-contact__company" name="company-name" placeholder="company name" required>
-               <input class="formular-contact__mail" name="email-address" type="email" placeholder="email-address"
-                  required>
-               <select class="formular-contact__service" placeholder="select service">
-                  <option>web design</option>
-                  <option>opcja 2</option>
-                  <option>opcja 3</option>
-               </select>
-               <textarea class="formular-contact__describe">describe your project</textarea>
-               <button>Submit</button>
-            </form>
-         </article>
+         <form class="formular-contact">
+            <input class="formular-contact__name" name="name" placeholder="your name*" required>
+            <input class="formular-contact__company" name="company-name" placeholder="company name*" required>
+            <input class="formular-contact__mail" name="email-address" type="email" placeholder="email-address*"
+               required>
+            <select class="formular-contact__service" placeholder="select service*">
+               <option>web design</option>
+               <option>opcja 2</option>
+               <option>opcja 3</option>
+            </select>
+            <textarea class="formular-contact__describe">describe your project*</textarea>
+            <button class="fromular-contact__button">Submit</button>
+         </form>
+
       </section>
 
 

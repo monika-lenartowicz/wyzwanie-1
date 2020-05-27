@@ -1,0 +1,48 @@
+.formular {
+   display: flex;
+}
+
+.formular-article {
+   width: 50%;
+   margin: 40px 70px;
+   text-align: right;
+}
+
+.formular-article__header {
+   font-weight: 400px;
+   font-size: 50px;
+   margin-top: 0;
+}
+
+.formular-article__paragraph {
+   line-height: 1.7;
+   color: rgb(192, 190, 190);
+}
+
+.formular-contact {
+   display: grid;
+   margin: 40px 75px 40px 0;
+   width: 50%;
+   grid-template-columns: 50% 50%;
+   grid-gap: 16px;
+}
+
+.formular-contact__describe, .formular-contact__service, .formular-contact__name {
+   grid-column-start: 1;
+   grid-column-end: 3;
+   text-transform: uppercase;
+   font-size: 12px;
+}
+.formular-contact__company, .formular-contact__mail {
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+
+.fromular-contact__button {
+   color: white;
+   background: rgb(214, 28, 28);
+   grid-column-start: 1;
+   grid-column-end: 3;
+margin-top: 30px;
+}

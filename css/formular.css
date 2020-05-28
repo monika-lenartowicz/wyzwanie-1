@@ -1,0 +1,82 @@
+.formular {
+   display: flex;
+   margin: 150px;
+}
+
+@media(max-width:1024px) {
+   .formular {
+      margin: 32px;
+   }
+}
+
+@media(max-width:767px) {
+   .formular {
+      display: block;
+      margin: 16px;
+   }
+}
+
+.formular-article {
+   width: 50%;
+   text-align: right;
+   margin-right: 50px;
+}
+
+@media(max-width:767px) {
+   .formular-article {
+      margin-bottom: 50px;
+      width: 100%;
+      margin-right: 32px;
+      text-align: center;
+   }
+}
+
+.formular-article__header {
+   font-weight: 400px;
+   font-size: 50px;
+   margin-top: 0;
+   line-height: 1.2;
+}
+
+@media(max-width:991px) {
+   .formular-article__header {
+      font-size: 32px;
+   }
+}
+
+.formular-article__paragraph {
+   line-height: 1.7;
+   color: rgb(192, 190, 190);
+   margin-bottom: 0;
+}
+
+.formular-contact {
+   display: grid;
+   width: 50%;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 16px;
+}
+
+.formular-contact__describe, .formular-contact__service, .formular-contact__name {
+   grid-column-start: 1;
+   grid-column-end: 3;
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+.formular-contact__describe {
+   resize: vertical;
+}
+
+.formular-contact__company, .formular-contact__mail {
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+.fromular-contact__button {
+   color: white;
+   background: rgb(214, 28, 28);
+   grid-column-start: 1;
+   grid-column-end: 3;
+   margin-top: 30px;
+}

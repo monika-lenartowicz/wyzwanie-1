@@ -64,7 +64,7 @@
 }
 
 .services__article {
-   width: 350px;
+   max-width: 350px;
    padding: 30px;
    line-height: 1.5;
    color: rgb(133, 133, 133);

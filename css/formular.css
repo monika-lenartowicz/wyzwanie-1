@@ -1,6 +1,6 @@
 .formular {
    display: flex;
-   margin: 30px 150px;
+   margin: 150px;
 }
 
 .formular-article {
@@ -34,6 +34,10 @@
    grid-column-end: 3;
    text-transform: uppercase;
    font-size: 12px;
+}
+
+.formular-contact__describe {
+   resize: vertical;
 }
 
 .formular-contact__company, .formular-contact__mail {

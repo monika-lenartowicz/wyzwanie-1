@@ -3,10 +3,32 @@
    margin: 150px;
 }
 
+@media(max-width:1024px) {
+   .formular {
+      margin: 32px;
+   }
+}
+
+@media(max-width:767px) {
+   .formular {
+      display: block;
+      margin: 16px;
+   }
+}
+
 .formular-article {
    width: 50%;
    text-align: right;
    margin-right: 50px;
+}
+
+@media(max-width:767px) {
+   .formular-article {
+      margin-bottom: 50px;
+      width: 100%;
+      margin-right: 32px;
+      text-align: center;
+   }
 }
 
 .formular-article__header {
@@ -14,6 +36,12 @@
    font-size: 50px;
    margin-top: 0;
    line-height: 1.2;
+}
+
+@media(max-width:991px) {
+   .formular-article__header {
+      font-size: 32px;
+   }
 }
 
 .formular-article__paragraph {
